@@ -6,7 +6,7 @@
 
 // ここにisOddNumber関数を作る
 const isOddNumber = (num) => {
-    return num%2 === 1;
+    return num % 2 === 1;
 }
 
 // ここにconsole.logを使って「9」「14」を引数に渡したときの結果値を出力する
