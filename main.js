@@ -7,7 +7,7 @@
 // ここにisOddNumber関数を作る
 const isOddNumber = (num) => {
     return num % 2 === 1;
-}
+};
 
 // ここにconsole.logを使って「9」「14」を引数に渡したときの結果値を出力する
 console.log(isOddNumber(9));
@@ -32,7 +32,7 @@ const factorial = (num) => {
         ans *= i;
     }
     return ans;
-}
+};
 
 // ここにconsole.logを使って「4」「5」を引数に渡したときの結果値を出力する
 console.log(factorial(4));
@@ -50,7 +50,7 @@ console.log(factorial(5));
 
 const convertFirstCharacterToUpperCase = (text) => {
     return text.charAt(0).toUpperCase() + text.slice(1);
-}
+};
 
 // ここにconsole.logを使って「'hello'」「'world'」を引数に渡したときの結果値を出力する
 console.log(convertFirstCharacterToUpperCase('hello'));
